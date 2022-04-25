@@ -1,28 +1,16 @@
 body {
-    background-color: rgb(5, 1, 1);
-    margin: 0;
-    padding: 0;
+    background-color: rgb(0, 0, 0);
     color: white;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: "Gruppo";
 }
 
-.wrapper {
-    background-color: rgb(7, 147, 202);
-    padding: 3rem;
-    margin: .5rem;
-    height: 5px;
-    border-radius: 1rem;
-    border: 2px solid rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.toptext {
+ align-items: center;
+ text-align: center;
 }
 
-.card {
+.card  {
     background-color: hsl(0, 0%, 100%);
     border-radius: 5px;
     border-width: 1px;
@@ -32,14 +20,7 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 30px 40px;
-}
-
-.card header {
-    background-color: blue;
-}
- 
-.card body {
-    min-height: 70vh;
+    text-align: center;
 }
 
 #password {
@@ -47,16 +28,10 @@ body {
   -moz-appearance: none;
   appearance: none;
   border: none;
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 200px;
-  padding-bottom: 22px;
+  padding: 200px 15px 15px 22;
   font-size: 1.2rem;
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 10px;
   border: 2px dashed #c0c7cf;
   border-radius: 6px;
   resize: none;
@@ -64,21 +39,20 @@ body {
 }
 
 .btn {
-    border: none;
     background-color: rgb(7, 147, 202);
     border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
       0px;
     color: hsl(0, 0%, 100%);
-    display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 22px;
-    line-height: 22px;
-    margin: 16px 16px 16px 20px;
+    font-size: 30px;
     padding: 14px 34px;
-    text-align: center;
     cursor: pointer;
+}
+
+.btn:hover {
+  background-color: darkblue;
+  border-radius: 30px;
 }
 
 @media (max-width: 690px) {

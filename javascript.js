@@ -33,8 +33,8 @@ function getParameters() {
     alert("Lenght of password must be greater than 8")
   }
 //if the user chooses any number more than 128 it will alert the string message //
-  if (length > 128) {
-    alert("Lenght of password must be less than 128")
+  if (length > 15) {
+    alert("Lenght of password must be less than 15")
   }
 //These variables will confirm if the users wants special characters, upper case letters, lower case letters, and numbers //
   var hasspecialChar =
